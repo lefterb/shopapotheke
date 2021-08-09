@@ -1,0 +1,9 @@
+./node_modules
+./dist
+tsconfig.eslint.json
+.eslintrc.js
+.eslintignore
+babel.config.js
+buildSettings/*
+webpack.*.js
+setupTests.js

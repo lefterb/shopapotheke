@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules", "buildSettings/**/*", "./webpack.common.js", "./webpack.prod.js",  ".eslintrc.js", "babel.config.js",  "package.json"],
+  "include": ["src/**/*", "server/*"]
+}

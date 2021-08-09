@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    // "module": "esnext",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "outDir": "./public",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "paths": {
+      "import-png": [
+        "./types/import-png.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "./src/index.tsx",
+    "types/images.d.ts",
+
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
